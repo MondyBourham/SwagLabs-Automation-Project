@@ -1,0 +1,8 @@
+{
+  "username": "notstandard_user",
+  "password": "secret$sauce",
+  "errorMSG": "Epic sadface: Username and password do not match any user in this service",
+  "emptyUserMSG": "Epic sadface: Username is required",
+  "emptyPasswordMSG": "Epic sadface: Password is required"
+}
+

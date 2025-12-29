@@ -1,0 +1,9 @@
+[INFO] 23-12-2025 18:33:11 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:29)] - browser opened
+[INFO] 23-12-2025 18:33:12 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:34)] - URL redirected
+[INFO] 23-12-2025 18:33:12 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseaddingRandomProductsToCartTC started
+[INFO] 23-12-2025 18:33:13 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:64)] - Adding random product to cart is = 1
+[INFO] 23-12-2025 18:33:13 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:64)] - Adding random product to cart is = 3
+[INFO] 23-12-2025 18:33:13 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:64)] - Adding random product to cart is = 4
+[INFO] 23-12-2025 18:33:13 [main] [Pages.LandingPage.getNoOfProductsOnCartIcon(P02_LandingPage.java:37)] - No Of prodcucts on cart is = 3
+[INFO] 23-12-2025 18:33:13 [main] [Pages.LandingPage.getNoOfSelectedProducts(P02_LandingPage.java:48)] - No of selected products is = 3
+[INFO] 23-12-2025 18:33:13 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseaddingRandomProductsToCartTC Passed Successfully

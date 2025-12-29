@@ -1,0 +1,6 @@
+[INFO] 29-12-2025 17:31:09 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 29-12-2025 17:31:09 [main] [Tests.LoginTest.SetUp(LoginTest.java:30)] - Edge Browser is opened
+[INFO] 29-12-2025 17:31:10 [main] [Tests.LoginTest.SetUp(LoginTest.java:35)] - Page is redirected to URL
+[INFO] 29-12-2025 17:31:10 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: validatePageIdentity
+[INFO] 29-12-2025 17:31:10 [main] [Utilities.Utilty.verifyLogoText(Utilty.java:136)] - Logo Text → Expected: 'Swag Labs' | Actual: 'Swag Labs'
+[INFO] 29-12-2025 17:31:10 [main] [Listeners.ITestListener.onTestSuccess(ITestListener.java:14)] - ✅ Test passed: validatePageIdentity

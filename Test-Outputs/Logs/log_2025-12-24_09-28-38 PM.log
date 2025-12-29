@@ -1,0 +1,18 @@
+[INFO] 24-12-2025 21:28:38 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 24-12-2025 21:28:38 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:29)] - Edge Browser is opened
+[INFO] 24-12-2025 21:28:39 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:34)] - Page is redirected to URL
+[INFO] 24-12-2025 21:28:39 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: validateLogin
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_useeer
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.Utilty.sendData(Utilty.java:37)] - standard_useeer has been written to By.id: user-name
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.Utilty.sendData(Utilty.java:37)] - secret_sauce has been written to By.id: password
+[INFO] 24-12-2025 21:28:39 [main] [Utilities.Utilty.clickOnElement(Utilty.java:29)] - Element clicked: By.id: login-button
+[INFO] 24-12-2025 21:28:40 [main] [Pages.LandingPage.isOnHomePage(P02_LandingPage.java:30)] - Current URL: https://www.saucedemo.com/?utm_source=chatgpt.com
+[INFO] 24-12-2025 21:28:40 [main] [Listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:13)] - Test casevalidateLogin Failed 
+[INFO] 24-12-2025 21:28:40 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:79)] - Taking screenshot of: validateLogin
+[INFO] 24-12-2025 21:28:40 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:83)] - Screenshot saved at: C:\Users\bourh\IdeaProjects\SwagLabsAutomationProject\Test-Outputs\ScreenShoots\validateLogin-24-12-2025 -- 21-28-40PM.png
+[INFO] 24-12-2025 21:28:40 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:86)] - Screenshot attached to Allure successfully

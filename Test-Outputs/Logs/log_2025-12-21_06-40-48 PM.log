@@ -1,0 +1,4 @@
+[INFO] 21-12-2025 18:40:48 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:28)] - Edge Browser is opened
+[INFO] 21-12-2025 18:40:49 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:33)] - Page is redirected to URL
+[INFO] 21-12-2025 18:40:49 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test casevalidateLogin started
+[INFO] 21-12-2025 18:40:50 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test casevalidateLogin Passed Successfully

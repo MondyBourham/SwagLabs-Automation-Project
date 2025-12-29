@@ -1,0 +1,61 @@
+->SwagLap
+    -> src
+        -> main
+             ->java
+                   ->DriverFactory
+                     -Driverfactory.java ("webDirver initialization")
+
+                   ->Pages "Initalization of webpages elements and methods"
+                     -P01_LoginPage.java
+                     -P02_LandingPage.java
+                     -P03_CartPage.java
+                     -P04_CheckOutPAge.java
+                     -P05_OverViewPage.java
+                     -P06_FinishingOrderPage.java
+
+                   ->Utilities
+                     -DataUtilies.java ("functions to read data from Json, Property and Yaml files")
+                     -LogsUtils.java ("functions to send log msgs") // What to log + Who logged it // connected to log4j2.properties
+                     -Utilty.java ("Helper function")
+             ->resources
+                -allure.properties ( "direct allure result to its dir"
+                -log4j2.properties ("Control where, how, and what gets logged for both console (terminal) and log files.")
+        ->test
+            -> java
+                   ->Listeners
+                      - invokedMethodListener ("automatic failure handling - This is exactly how professional test suites catch flakiness and debug failures fast")
+                      - iTestListener ("lifecycle logging that gives instant visibility into test execution flow")
+
+                   ->Tests
+                     -TC01_LoginTest.java
+                     -TC02_LandingTest.java
+                     -TC03_CartTest.java
+                     -TC04_CheckOutTest.java
+                     -TC05_OverViewTest.java
+                     -TC06_FinishingOrderTest.java
+            ->resources
+                -> TestData
+                     -environment.properties
+                     -usersData.json
+                     -ValidLogin.json
+
+     ->target
+     ->Test Runner
+           -CartSuite.xml
+           -CheckOutSuit.xml
+           -FinishingSuit.xml
+           -LadingSuite.xml
+           -LoginSuite.xml
+           -OverViewSuit.xml
+           -RegressionSuit.xml
+
+     ->Test-Outouts(allure)
+        ->target
+           - reports
+
+     ->Test-Outouts
+        ->Logs
+        ->ScreenShots
+
+    - .gitignore
+    - pomxml

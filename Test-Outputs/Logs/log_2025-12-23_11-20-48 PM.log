@@ -1,0 +1,72 @@
+[INFO] 23-12-2025 23:20:48 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:28)] - Edge Browser is opened
+[INFO] 23-12-2025 23:20:49 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:33)] - Page is redirected to URL
+[INFO] 23-12-2025 23:20:49 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test casevalidateLogin started
+[INFO] 23-12-2025 23:20:49 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test casevalidateLogin Passed Successfully
+[INFO] 23-12-2025 23:20:50 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:30)] - browser opened
+[INFO] 23-12-2025 23:20:51 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:35)] - URL redirected
+[INFO] 23-12-2025 23:20:51 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseComaparingNoOfSelectedProductsTC started
+[INFO] 23-12-2025 23:21:00 [main] [Pages.LandingPage.AddAllProductsToCart(P02_LandingPage.java:29)] - NO of all product is = 6
+[INFO] 23-12-2025 23:21:00 [main] [Pages.LandingPage.getNoOfProductsOnCartIcon(P02_LandingPage.java:40)] - No Of prodcucts on cart is = 5
+[INFO] 23-12-2025 23:21:00 [main] [Pages.LandingPage.getNoOfSelectedProducts(P02_LandingPage.java:51)] - No of selected products is = 5
+[INFO] 23-12-2025 23:21:00 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseComaparingNoOfSelectedProductsTC Passed Successfully
+[INFO] 23-12-2025 23:21:01 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:30)] - browser opened
+[INFO] 23-12-2025 23:21:01 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:35)] - URL redirected
+[INFO] 23-12-2025 23:21:01 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseaddingRandomProductsToCartTC started
+[INFO] 23-12-2025 23:21:02 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 2
+[INFO] 23-12-2025 23:21:03 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 5
+[INFO] 23-12-2025 23:21:03 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 6
+[INFO] 23-12-2025 23:21:03 [main] [Pages.LandingPage.getNoOfProductsOnCartIcon(P02_LandingPage.java:40)] - No Of prodcucts on cart is = 3
+[INFO] 23-12-2025 23:21:03 [main] [Pages.LandingPage.getNoOfSelectedProducts(P02_LandingPage.java:51)] - No of selected products is = 3
+[INFO] 23-12-2025 23:21:03 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseaddingRandomProductsToCartTC Passed Successfully
+[INFO] 23-12-2025 23:21:04 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:30)] - browser opened
+[INFO] 23-12-2025 23:21:04 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:35)] - URL redirected
+[INFO] 23-12-2025 23:21:04 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseclickOnCartIconTC started
+[INFO] 23-12-2025 23:21:05 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 1
+[INFO] 23-12-2025 23:21:06 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 4
+[INFO] 23-12-2025 23:21:06 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 5
+[INFO] 23-12-2025 23:21:06 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseclickOnCartIconTC Passed Successfully
+[INFO] 23-12-2025 23:21:07 [main] [Tests.CartTest.SetUp(TC03_CartTest.java:30)] - browser opened
+[INFO] 23-12-2025 23:21:07 [main] [Tests.CartTest.SetUp(TC03_CartTest.java:35)] - URL redirected
+[INFO] 23-12-2025 23:21:07 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test casecomparingPricesTC started
+[INFO] 23-12-2025 23:21:08 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 1
+[INFO] 23-12-2025 23:21:08 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 2
+[INFO] 23-12-2025 23:21:08 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 3
+[ERROR] 23-12-2025 23:21:18 [main] [Pages.LandingPage.getProductPricesOfSelectedProducts(P02_LandingPage.java:91)] - Expected condition failed: waiting for visibility of element located by By.xpath: //button[.="Remove"]/preceding-sibling::div[@class="inventory_item_price"][0] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 17172, ms:edgeOptions: {debuggerAddress: localhost:50776}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\bourh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50776/devtoo..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00a75bbf37cc7fbc2140432197a6c704
+[ERROR] 23-12-2025 23:21:28 [main] [Pages.CartPage.getProductPricesinCart(P03_CartPage.java:32)] - Expected condition failed: waiting for visibility of element located by By.xpath: //button[.="Remove"]/preceding-sibling::div[@class="inventory_item_price"][0] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 17172, ms:edgeOptions: {debuggerAddress: localhost:50776}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\bourh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50776/devtoo..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 00a75bbf37cc7fbc2140432197a6c704
+[INFO] 23-12-2025 23:21:28 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test casecomparingPricesTC Passed Successfully
+[INFO] 23-12-2025 23:21:29 [main] [Tests.CheckOutTest.SetUp(TC04_CheckOutTest.java:36)] - browser opened
+[INFO] 23-12-2025 23:21:30 [main] [Tests.CheckOutTest.SetUp(TC04_CheckOutTest.java:41)] - URL redirected
+[INFO] 23-12-2025 23:21:30 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseCheckoutStepOneTC started
+[INFO] 23-12-2025 23:21:31 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 2
+[INFO] 23-12-2025 23:21:31 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 4
+[INFO] 23-12-2025 23:21:31 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseCheckoutStepOneTC Passed Successfully
+[INFO] 23-12-2025 23:21:32 [main] [Tests.OverViewTest.SetUp(TC05_OverViewTest.java:32)] - browser opened
+[INFO] 23-12-2025 23:21:33 [main] [Tests.OverViewTest.SetUp(TC05_OverViewTest.java:37)] - URL redirected
+[INFO] 23-12-2025 23:21:33 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseCheckoutStepOneTC started
+[INFO] 23-12-2025 23:21:34 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 1
+[INFO] 23-12-2025 23:21:34 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 4
+[INFO] 23-12-2025 23:21:35 [main] [Tests.OverViewTest.CheckoutStepOneTC(TC05_OverViewTest.java:61)] - Mondy Bourham 11511
+[INFO] 23-12-2025 23:21:35 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 86.380005
+[INFO] 23-12-2025 23:21:35 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 79.98
+[INFO] 23-12-2025 23:21:35 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 86.380005
+[INFO] 23-12-2025 23:21:35 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 79.98
+[INFO] 23-12-2025 23:21:35 [main] [Listeners.InvokedMethodListener.afterInvocation(invokedMethodListener.java:16)] - Test caseCheckoutStepOneTC Failed
+[INFO] 23-12-2025 23:21:36 [main] [Tests.FinishingOrderTest.SetUp(TC06_FinishingOrderTest.java:32)] - browser opened
+[INFO] 23-12-2025 23:21:37 [main] [Tests.FinishingOrderTest.SetUp(TC06_FinishingOrderTest.java:37)] - URL redirected
+[INFO] 23-12-2025 23:21:37 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseFinishingOrderTC started
+[INFO] 23-12-2025 23:21:37 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 2
+[INFO] 23-12-2025 23:21:38 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 3
+[INFO] 23-12-2025 23:21:38 [main] [Tests.FinishingOrderTest.FinishingOrderTC(TC06_FinishingOrderTest.java:61)] - Mondy Bourham 11511
+[INFO] 23-12-2025 23:21:38 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 28.06
+[INFO] 23-12-2025 23:21:38 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 25.98
+[INFO] 23-12-2025 23:21:38 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseFinishingOrderTC Passed Successfully

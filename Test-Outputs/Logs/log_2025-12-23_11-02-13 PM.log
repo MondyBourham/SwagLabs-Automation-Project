@@ -1,0 +1,9 @@
+[INFO] 23-12-2025 23:02:13 [main] [Tests.FinishingOrderTest.SetUp(TC06_FinishingOrderTest.java:32)] - browser opened
+[INFO] 23-12-2025 23:02:14 [main] [Tests.FinishingOrderTest.SetUp(TC06_FinishingOrderTest.java:37)] - URL redirected
+[INFO] 23-12-2025 23:02:14 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseFinishingOrderTC started
+[INFO] 23-12-2025 23:02:20 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 3
+[INFO] 23-12-2025 23:02:20 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 4
+[INFO] 23-12-2025 23:02:20 [main] [Tests.FinishingOrderTest.FinishingOrderTC(TC06_FinishingOrderTest.java:61)] - Mondy Bourham 11511
+[INFO] 23-12-2025 23:02:20 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 71.26
+[INFO] 23-12-2025 23:02:20 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 65.98
+[INFO] 23-12-2025 23:02:21 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseFinishingOrderTC Passed Successfully

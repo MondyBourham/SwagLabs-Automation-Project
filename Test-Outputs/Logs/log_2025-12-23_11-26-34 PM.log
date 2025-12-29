@@ -1,0 +1,11 @@
+[INFO] 23-12-2025 23:26:34 [main] [Tests.OverViewTest.SetUp(TC05_OverViewTest.java:32)] - browser opened
+[INFO] 23-12-2025 23:26:34 [main] [Tests.OverViewTest.SetUp(TC05_OverViewTest.java:37)] - URL redirected
+[INFO] 23-12-2025 23:26:34 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseCheckoutStepOneTC started
+[INFO] 23-12-2025 23:26:35 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 2
+[INFO] 23-12-2025 23:26:36 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:67)] - Adding random product to cart is = 5
+[INFO] 23-12-2025 23:26:36 [main] [Tests.OverViewTest.CheckoutStepOneTC(TC05_OverViewTest.java:61)] - Mondy Bourham 11511
+[INFO] 23-12-2025 23:26:36 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 19.42
+[INFO] 23-12-2025 23:26:36 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 17.98
+[INFO] 23-12-2025 23:26:36 [main] [Pages.OverViewPage.calcTotalPrice(P05_OverViewPage.java:34)] - Total price is: 19.42
+[INFO] 23-12-2025 23:26:36 [main] [Pages.OverViewPage.getTotal(P05_OverViewPage.java:28)] - Total price before TAX is: 17.98
+[INFO] 23-12-2025 23:26:36 [main] [Listeners.ITestListener.onTestSuccess(iTestListener.java:14)] - Test caseCheckoutStepOneTC Passed Successfully

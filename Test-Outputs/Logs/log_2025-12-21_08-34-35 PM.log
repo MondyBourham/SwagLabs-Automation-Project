@@ -1,0 +1,7 @@
+[INFO] 21-12-2025 20:34:35 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:29)] - browser opened
+[INFO] 21-12-2025 20:34:35 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:34)] - URL redirected
+[INFO] 21-12-2025 20:34:36 [main] [Listeners.ITestListener.onTestStart(iTestListener.java:10)] - Test caseComaparingNoOfSelectedProductsTC started
+[INFO] 21-12-2025 20:34:36 [main] [Pages.LandingPage.AddAllProductsToCart(P02_LandingPage.java:25)] - NO of all product is = 6
+[INFO] 21-12-2025 20:34:37 [main] [Pages.LandingPage.getNoOfProductsOnCartIcon(P02_LandingPage.java:36)] - No Of prodcucts on cart is = 5
+[INFO] 21-12-2025 20:34:37 [main] [Pages.LandingPage.getNoOfSelectedProducts(P02_LandingPage.java:47)] - No of selected products is = 5
+[INFO] 21-12-2025 20:34:37 [main] [Listeners.InvokedMethodListener.afterInvocation(invokedMethodListener.java:16)] - Test caseComaparingNoOfSelectedProductsTC Failed

@@ -1,0 +1,14 @@
+[INFO] 24-12-2025 20:58:37 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 24-12-2025 20:58:37 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:28)] - Edge Browser is opened
+[INFO] 24-12-2025 20:58:38 [main] [Tests.LoginTest.SetUp(TC01_LoginTest.java:33)] - Page is redirected to URL
+[INFO] 24-12-2025 20:58:38 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: validateLogin
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.Utilty.sendData(Utilty.java:37)] - standard_user has been written toBy.id: user-name
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 24-12-2025 20:58:38 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 20:58:39 [main] [Utilities.Utilty.sendData(Utilty.java:37)] - secret_sauce has been written toBy.id: password
+[INFO] 24-12-2025 20:58:39 [main] [Utilities.Utilty.clickOnElement(Utilty.java:29)] - Element clicked: By.id: login-button
+[INFO] 24-12-2025 20:58:39 [main] [Listeners.ITestListener.onTestSuccess(ITestListener.java:14)] - ✅ Test passed: validateLogin

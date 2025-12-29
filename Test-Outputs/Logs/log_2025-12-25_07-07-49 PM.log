@@ -1,0 +1,13 @@
+[INFO] 25-12-2025 19:07:49 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 25-12-2025 19:07:49 [main] [Tests.LoginTest.SetUp(LoginTest.java:30)] - Edge Browser is opened
+[INFO] 25-12-2025 19:07:50 [main] [Tests.LoginTest.SetUp(LoginTest.java:35)] - Page is redirected to URL
+[INFO] 25-12-2025 19:07:50 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: withEmptyUsernameAndPassword
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.sendData(Utilty.java:39)] -  has been written to By.id: user-name
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.sendData(Utilty.java:39)] -  has been written to By.id: password
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.findWebElement(Utilty.java:56)] - By.xpath: //h3[contains(text(),'Epic sadface')] found .
+[INFO] 25-12-2025 19:07:50 [main] [Pages.LoginPage.invalidLoginErrorMsg(LoginPage.java:49)] - Actual Error MSG: Epic sadface: Username is required
+[INFO] 25-12-2025 19:07:50 [main] [Listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:13)] - Test casewithEmptyUsernameAndPassword Failed 
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:81)] - Taking screenshot of: withEmptyUsernameAndPassword
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:85)] - Screenshot saved at: C:\Users\bourh\IdeaProjects\SwagLabsAutomationProject\Test-Outputs\ScreenShoots\withEmptyUsernameAndPassword-25-12-2025 -- 19-07-50PM.png
+[INFO] 25-12-2025 19:07:50 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:88)] - Screenshot attached to Allure successfully

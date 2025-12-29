@@ -1,0 +1,20 @@
+[INFO] 29-12-2025 17:30:34 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 29-12-2025 17:30:34 [main] [Tests.LandingTest.SetUp(LandingTest.java:29)] - browser opened
+[INFO] 29-12-2025 17:30:44 [main] [Tests.LandingTest.SetUp(LandingTest.java:34)] - URL redirected
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - standard_user has been written to By.id: user-name
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - secret_sauce has been written to By.id: password
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:30:44 [main] [Tests.LandingTest.SetUp(LandingTest.java:40)] - User : standard_userlogged in successfully.
+[INFO] 29-12-2025 17:30:44 [main] [Tests.LandingTest.SetUp(LandingTest.java:41)] - Redirected URL : https://www.saucedemo.com/inventory.html
+[INFO] 29-12-2025 17:30:44 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: validatePageIdentity
+[INFO] 29-12-2025 17:30:44 [main] [Utilities.Utilty.verifyLogoText(Utilty.java:136)] - Logo Text → Expected: 'Swag Labs' | Actual: 'Swag Labs'
+[INFO] 29-12-2025 17:30:44 [main] [Listeners.ITestListener.onTestSuccess(ITestListener.java:14)] - ✅ Test passed: validatePageIdentity

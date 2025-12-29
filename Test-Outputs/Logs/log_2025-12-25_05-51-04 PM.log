@@ -1,0 +1,20 @@
+[INFO] 25-12-2025 17:51:05 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 25-12-2025 17:51:05 [main] [Tests.LoginTest.SetUp(LoginTest.java:30)] - Edge Browser is opened
+[INFO] 25-12-2025 17:51:15 [main] [Tests.LoginTest.SetUp(LoginTest.java:35)] - Page is redirected to URL
+[INFO] 25-12-2025 17:51:15 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: loginInvalidUsername
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: InvalidLogin.json Opened
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: notstandard_user
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - notstandard_user has been written to By.id: user-name
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - secret_sauce has been written to By.id: password
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.findWebElement(Utilty.java:56)] - By.xpath: //h3[contains(text(),'Epic sadface')] found .
+[INFO] 25-12-2025 17:51:15 [main] [Pages.LoginPage.invalidLoginErrorMsg(LoginPage.java:43)] - Epic sadface: Username and password do not match any user in this service
+[ERROR] 25-12-2025 17:51:15 [main] [Pages.LoginPage.invalidLoginErrorMsg(LoginPage.java:44)] - Invalid Login
+[INFO] 25-12-2025 17:51:15 [main] [Listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:13)] - Test caseloginInvalidUsername Failed 
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:81)] - Taking screenshot of: loginInvalidUsername
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:85)] - Screenshot saved at: C:\Users\bourh\IdeaProjects\SwagLabsAutomationProject\Test-Outputs\ScreenShoots\loginInvalidUsername-25-12-2025 -- 17-51-15PM.png
+[INFO] 25-12-2025 17:51:15 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:88)] - Screenshot attached to Allure successfully

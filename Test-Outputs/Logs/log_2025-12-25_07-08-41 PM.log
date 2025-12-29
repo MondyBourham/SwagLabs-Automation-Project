@@ -1,0 +1,14 @@
+[INFO] 25-12-2025 19:08:41 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 25-12-2025 19:08:41 [main] [Tests.LoginTest.SetUp(LoginTest.java:30)] - Edge Browser is opened
+[INFO] 25-12-2025 19:08:42 [main] [Tests.LoginTest.SetUp(LoginTest.java:35)] - Page is redirected to URL
+[INFO] 25-12-2025 19:08:42 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: withEmptyUsernameAndPassword
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.Utilty.sendData(Utilty.java:39)] -  has been written to By.id: user-name
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.Utilty.sendData(Utilty.java:39)] -  has been written to By.id: password
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.Utilty.findWebElement(Utilty.java:56)] - By.xpath: //h3[contains(text(),'Epic sadface')] found .
+[INFO] 25-12-2025 19:08:42 [main] [Pages.LoginPage.invalidLoginErrorMsg(LoginPage.java:49)] - Actual Error MSG: Epic sadface: Username is required
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: InvalidLogin.json Opened
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: Epic sadface: Username is required
+[INFO] 25-12-2025 19:08:42 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 25-12-2025 19:08:42 [main] [Pages.LoginPage.errorIconVisiblty(LoginPage.java:63)] - ✅ Both error icons (username & password) are visible
+[INFO] 25-12-2025 19:08:42 [main] [Listeners.ITestListener.onTestSuccess(ITestListener.java:14)] - ✅ Test passed: withEmptyUsernameAndPassword

@@ -1,0 +1,29 @@
+[INFO] 24-12-2025 21:50:10 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 24-12-2025 21:50:10 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:30)] - browser opened
+[INFO] 24-12-2025 21:50:13 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:35)] - URL redirected
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - standard_user has been written to By.id: user-name
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - secret_sauce has been written to By.id: password
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.jsonOpened
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 24-12-2025 21:50:13 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 24-12-2025 21:50:13 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:41)] - User : standard_userlogged in successfully.
+[INFO] 24-12-2025 21:50:13 [main] [Tests.LandingTest.SetUp(TC02_LandingTest.java:42)] - Redirected URL : https://www.saucedemo.com/inventory.html
+[INFO] 24-12-2025 21:50:13 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: addingRandomProductsToCartTC
+[INFO] 24-12-2025 21:50:14 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:75)] - Adding random product to cart is = 1
+[INFO] 24-12-2025 21:50:14 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.xpath: (//button[@class])[1]
+[INFO] 24-12-2025 21:50:14 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:75)] - Adding random product to cart is = 3
+[INFO] 24-12-2025 21:50:14 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.xpath: (//button[@class])[3]
+[INFO] 24-12-2025 21:50:14 [main] [Pages.LandingPage.addRandomProductToCart(P02_LandingPage.java:75)] - Adding random product to cart is = 4
+[INFO] 24-12-2025 21:50:14 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.xpath: (//button[@class])[4]
+[INFO] 24-12-2025 21:50:14 [main] [Utilities.Utilty.getText(Utilty.java:45)] - 3 readed from By.className: shopping_cart_badge
+[INFO] 24-12-2025 21:50:14 [main] [Pages.LandingPage.getNoOfProductsOnCartIcon(P02_LandingPage.java:48)] - No Of prodcucts on cart is = 3
+[INFO] 24-12-2025 21:50:14 [main] [Utilities.Utilty.getText(Utilty.java:45)] - 3 readed from By.className: shopping_cart_badge
+[INFO] 24-12-2025 21:50:14 [main] [Pages.LandingPage.getNoOfSelectedProducts(P02_LandingPage.java:59)] - No of selected products is = 3
+[INFO] 24-12-2025 21:50:14 [main] [Listeners.ITestListener.onTestSuccess(ITestListener.java:14)] - ✅ Test passed: addingRandomProductsToCartTC

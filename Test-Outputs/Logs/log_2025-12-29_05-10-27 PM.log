@@ -1,0 +1,24 @@
+[INFO] 29-12-2025 17:10:27 [main] [DriverFactory.DriverFactory.setDriver(DriverFactory.java:45)] - Edge driver has been set
+[INFO] 29-12-2025 17:10:27 [main] [Tests.LandingTest.SetUp(LandingTest.java:29)] - browser opened
+[INFO] 29-12-2025 17:10:28 [main] [Tests.LandingTest.SetUp(LandingTest.java:34)] - URL redirected
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: secret_sauce
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - standard_user has been written to By.id: user-name
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.sendData(Utilty.java:39)] - secret_sauce has been written to By.id: password
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.clickOnElement(Utilty.java:31)] - Element clicked: By.id: login-button
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:23)] - File: ValidLogin.json Opened
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:24)] - Data Received: standard_user
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.DataUtilies.getJsonData(DataUtilies.java:34)] - File closed
+[INFO] 29-12-2025 17:10:28 [main] [Tests.LandingTest.SetUp(LandingTest.java:40)] - User : standard_userlogged in successfully.
+[INFO] 29-12-2025 17:10:28 [main] [Tests.LandingTest.SetUp(LandingTest.java:41)] - Redirected URL : https://www.saucedemo.com/inventory.html
+[INFO] 29-12-2025 17:10:28 [main] [Listeners.ITestListener.onTestStart(ITestListener.java:10)] - ▶️ Starting test: sortion
+[INFO] 29-12-2025 17:10:28 [main] [Pages.LandingPage.getFirstProductPrice(LandingPage.java:119)] - 💰 First product price: $7.99
+[INFO] 29-12-2025 17:10:28 [main] [Pages.LandingPage.getLastProductPrice(LandingPage.java:132)] - 💰 last product price: $49.99
+[INFO] 29-12-2025 17:10:28 [main] [Listeners.InvokedMethodListener.afterInvocation(InvokedMethodListener.java:13)] - Test casesortion Failed 
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:81)] - Taking screenshot of: sortion
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:85)] - Screenshot saved at: C:\Users\bourh\IdeaProjects\SwagLabsAutomationProject\Test-Outputs\ScreenShoots\sortion-29-12-2025 -- 17-10-28PM.png
+[INFO] 29-12-2025 17:10:28 [main] [Utilities.Utilty.takeScreenShoot(Utilty.java:88)] - Screenshot attached to Allure successfully
